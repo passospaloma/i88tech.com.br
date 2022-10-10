@@ -1,0 +1,379 @@
+/*============================================================
+	For Small Desktop
+==============================================================*/
+
+@media (min-width: 980px) and (max-width: 1200px) {
+
+  /* entrada */
+  .bg-caption h3 {
+    font-size: 45px;
+  }
+
+  /* conceito */
+  #caption {
+    font-size: 0.8em;
+    line-height: 1.9rem;
+    margin: 7%;
+  }
+
+
+  .member-thumb {
+    width: auto;
+  }
+
+}
+
+/*============================================================
+	Tablet (Portrait) Design for a width of 768px
+==============================================================*/
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+
+  /* entrada */
+
+  .bg-caption h2 {
+    font-size: 55px;
+  }
+
+  .bg-caption h3 {
+    font-size: 36px;
+  }
+
+  /* solucoes */
+
+  .solucoes-item {
+    margin: 0 auto 30px;
+    text-align: center;
+    width: 325px;
+  }
+
+  .solucoes-icon {
+    float: none;
+    margin: 0 auto 15px;
+    text-align: center;
+    width: 50px;
+  }
+
+  .solucoes-desc {
+    margin-left: 0;
+    position: relative;
+    top: 0;
+  }
+
+  /* conceito */
+
+  .conceito-item {
+    width: 33%;
+  }
+
+  #caption {
+    font-size: 0.6em;
+    line-height: 1.7rem;
+    margin: 7%;
+  }
+
+  /* team */
+
+  .member-thumb .overlay h5 {
+    margin: 25px 0;
+  }
+
+  .conceito-item {
+    float: left;
+    width: 25%;
+    position: relative;
+  }
+
+  .member-thumb {
+    margin: 0 auto;
+  }
+
+  /* fatcs */
+
+  #facts {
+    background-position: center top !important;
+  }
+
+  .counters-item {
+    margin-bottom: 30px;
+  }
+
+  .counters-item i {
+    margin: 0 0 15px;
+  }
+
+  .counters-item strong {
+    font-size: 45px;
+  }
+
+  /* contact */
+
+  .contact-form .name-email input {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .footer-social {
+    margin-top: 45px;
+  }
+
+  /* footer */
+
+  .footer-single {
+    margin-bottom: 30px;
+  }
+
+}
+
+
+/*============================================================
+	Mobile (Portrait) Design for a width of 320px
+==============================================================*/
+
+@media only screen and (max-width: 767px) {
+
+  .navbar-nav li a.current,
+  .navbar-nav li a:focus,
+  .navbar-nav li a:hover {
+    background-color: rgba(21, 159, 203, 1);
+  }
+
+  .bg-caption {
+    width: 90%;
+    right: 7.5%;
+    left: 7.5%;
+  }
+
+
+  .imglogo {
+    height: 70px !important;
+  }
+
+  .display-1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+
+  #pso {
+
+    font-size: 1.1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .sec-title h2 {
+    font-size: 1.9rem;
+
+  }
+
+  #sobre {
+
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    color: var(--bs-dark);
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+  }
+
+  .devider {
+    padding-bottom: 5px !important;
+  }
+
+  .conceito-item .overlay h4 {
+    font-size: 1.3rem;
+  }
+
+  .conceito-item>img {
+    height: 100% !important;
+  }
+
+  .conceito-item .overlay h4 {
+    font-size: 1.3rem;
+  }
+
+  .conceito-item .overlay p {
+    font-size: 1.2rem;
+  }
+
+  .counters-item strong {
+    font-size: 3rem;
+  }
+
+  .contact-form h3 {
+    font-size: 1.8rem;
+  }
+
+  .container>.navbar-header,
+  .container-fluid>.navbar-header,
+  .container>.navbar-collapse,
+  .container-fluid>.navbar-collapse {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .navbar-nav li a {
+    text-align: center;
+
+  }
+
+  #caption {
+    font-size: 0.9rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .overlay {
+    width: 100%;
+  }
+
+  .col-xl-8 {
+    padding-left: 5rem !important;
+    padding-right: 0 !important;
+  }
+
+  .colorful-div h1 {
+    font-size: 25px;
+  }
+
+  section.cta {
+    padding: 5rem 0;
+  }
+
+  .sec-sub-title p {
+    font-size: 14px;
+  }
+
+  /* entrada */
+  .bg-caption h2 {
+    font-size: 35px;
+  }
+
+  .bg-caption h3 {
+    font-size: 22px;
+  }
+
+  .bg-caption p {
+    font-size: 14px;
+  }
+
+  .social-links {
+    margin-top: 20%;
+  }
+
+  /* solucoess */
+
+  .solucoes-item {
+    margin: 0 auto 30px;
+    text-align: center;
+    width: 280px;
+  }
+
+  .solucoes-icon {
+    float: none;
+    margin: 0 auto 15px;
+    text-align: center;
+    width: 50px;
+  }
+
+  .solucoes-desc {
+    margin-left: 0;
+    position: relative;
+    top: 0;
+  }
+
+  /* conceito */
+
+  .conceito-item {
+    left: 5% !important;
+    width: 90%;
+  }
+
+  /* team */
+
+  .team-member {
+    margin-bottom: 30px;
+  }
+
+  .team-member:last-child {
+    margin-bottom: 0;
+  }
+
+  .member-thumb {
+    margin: 0 auto;
+  }
+
+  /* facts */
+
+  #facts {
+    background-position: center top !important;
+  }
+
+  .counters-item {
+    margin-bottom: 30px;
+  }
+
+  /* contact */
+  .contact-address {
+    margin-bottom: 30px;
+  }
+
+  .footer-social {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .footer-social li {
+    display: inline-block;
+  }
+
+  .footer-social li a {
+    margin: 0 10px;
+  }
+
+  /* footer */
+
+  .footer-single {
+    margin-bottom: 30px;
+  }
+
+}
+
+
+/*============================================================
+	Mobile (Landscape) Design for a width of 480px
+==============================================================*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+
+  /* solucoess */
+
+  .solucoes-item {
+    margin: 0 auto 30px;
+    text-align: center;
+    width: 325px;
+  }
+
+  .solucoes-icon {
+    float: none;
+    margin: 0 auto 15px;
+    text-align: center;
+    width: 50px;
+  }
+
+  .solucoes-desc {
+    margin-left: 0;
+    position: relative;
+    top: 0;
+  }
+
+  /* conceito */
+
+  .conceito-item {
+    left: inherit !important;
+    width: 50%;
+  }
+
+}
