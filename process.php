@@ -15,7 +15,7 @@ if (isset($_POST['BTEnvia'])) {
 	
 	//Configurações do email, ajustar conforme necessidade
 	//==================================================== 
-	$email_destinatario = "contato@i88tech.com.br"; // pode ser qualquer email que receberá as mensagens
+	$email_destinatario = "#"; // pode ser qualquer email que receberá as mensagens
 	$email_reply = "$email"; 
 	$email_assunto = "$nome"; // Este será o assunto da mensagem
 	//====================================================
